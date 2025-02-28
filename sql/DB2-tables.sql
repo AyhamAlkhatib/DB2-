@@ -195,26 +195,31 @@ insert into course (course_id, course_name, credits) values ('COMP1020', 'Comput
 insert into course (course_id, course_name, credits) values ('COMP2010', 'Computing III', 3);
 insert into course (course_id, course_name, credits) values ('COMP2040', 'Computing IV', 3);
 
-insert into department (dept_name, location) value ('Miner School of Computer & Information Sciences', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values ('Miner School of Computer & Information Sciences', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values ('Civil & Environmental Engineering', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values ('Electrical & Computer Engineering', 'Ball Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values('Mechanical & Industrial Engineering', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values('Plastics Engineering', 'Ball Hall, 1 University Avenue, Lowell, MA 01854');
+insert into department (dept_name, location) values('Engineering Technology', 'Falmouth Hall, 1 University Avenue, Lowell, MA 01854');
 
-insert into instructor (instructor_id, instructor_name, title, dept_name, email) value ('1', 'David Adams', 'Teaching Professor', 'Miner School of Computer & Information Sciences','dbadams@cs.uml.edu');
-insert into instructor (instructor_id, instructor_name, title, dept_name, email) value ('2', 'Sirong Lin', 'Associate Teaching Professor', 'Miner School of Computer & Information Sciences','slin@cs.uml.edu');
-insert into instructor (instructor_id, instructor_name, title, dept_name, email) value ('3', 'Yelena Rykalova', 'Associate Teaching Professor', 'Miner School of Computer & Information Sciences', 'Yelena_Rykalova@uml.edu');
-insert into instructor (instructor_id, instructor_name, title, dept_name, email) value ('4', 'Johannes Weis', 'Assistant Teaching Professor', 'Miner School of Computer & Information Sciences','Johannes_Weis@uml.edu');
-insert into instructor (instructor_id, instructor_name, title, dept_name, email) value ('5', 'Tom Wilkes', 'Assistant Teaching Professor', 'Miner School of Computer & Information Sciences','Charles_Wilkes@uml.edu');
+insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('1', 'David Adams', 'Teaching Professor', 'Miner School of Computer & Information Sciences','dbadams@cs.uml.edu');
+insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('2', 'Sirong Lin', 'Associate Teaching Professor', 'Miner School of Computer & Information Sciences','slin@cs.uml.edu');
+insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('3', 'Yelena Rykalova', 'Associate Teaching Professor', 'Miner School of Computer & Information Sciences', 'Yelena_Rykalova@uml.edu');
+insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('4', 'Johannes Weis', 'Assistant Teaching Professor', 'Miner School of Computer & Information Sciences','Johannes_Weis@uml.edu');
+insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('5', 'Tom Wilkes', 'Assistant Teaching Professor', 'Miner School of Computer & Information Sciences','Charles_Wilkes@uml.edu');
 
-insert into time_slot (time_slot_id, day, start_time, end_time) value ('TS1', 'MoWeFr', '11:00:00', '11:50:00');
-insert into time_slot (time_slot_id, day, start_time, end_time) value ('TS2', 'MoWeFr', '12:00:00', '12:50:00');
-insert into time_slot (time_slot_id, day, start_time, end_time) value ('TS3', 'MoWeFr', '13:00:00', '13:50:00');
-insert into time_slot (time_slot_id, day, start_time, end_time) value ('TS4', 'TuTh', '11:00:00', '12:15:00');
-insert into time_slot (time_slot_id, day, start_time, end_time) value ('TS5', 'TuTh', '12:30:00', '13:45:00');
+insert into time_slot (time_slot_id, day, start_time, end_time) values ('TS1', 'MoWeFr', '11:00:00', '11:50:00');
+insert into time_slot (time_slot_id, day, start_time, end_time) values ('TS2', 'MoWeFr', '12:00:00', '12:50:00');
+insert into time_slot (time_slot_id, day, start_time, end_time) values ('TS3', 'MoWeFr', '13:00:00', '13:50:00');
+insert into time_slot (time_slot_id, day, start_time, end_time) values ('TS4', 'TuTh', '11:00:00', '12:15:00');
+insert into time_slot (time_slot_id, day, start_time, end_time) values ('TS5', 'TuTh', '12:30:00', '13:45:00');
 
-insert into section (course_id, section_id, semester, year) value ('COMP1010', 'Section101', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP1010', 'Section102', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP1010', 'Section103', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP1010', 'Section104', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP1020', 'Section101', 'Spring', 2024);
-insert into section (course_id, section_id, semester, year) value ('COMP1020', 'Section102', 'Spring', 2024);
-insert into section (course_id, section_id, semester, year) value ('COMP2010', 'Section101', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP2010', 'Section102', 'Fall', 2023);
-insert into section (course_id, section_id, semester, year) value ('COMP2040', 'Section201', 'Spring', 2024);
+insert into section (course_id, section_id, semester, year) values ('COMP1010', 'Section101', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP1010', 'Section102', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP1010', 'Section103', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP1010', 'Section104', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP1020', 'Section101', 'Spring', 2024);
+insert into section (course_id, section_id, semester, year) values ('COMP1020', 'Section102', 'Spring', 2024);
+insert into section (course_id, section_id, semester, year) values ('COMP2010', 'Section101', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP2010', 'Section102', 'Fall', 2023);
+insert into section (course_id, section_id, semester, year) values ('COMP2040', 'Section201', 'Spring', 2024);
