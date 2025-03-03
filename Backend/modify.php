@@ -26,6 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "UPDATE student 
             SET name = '$name', email = '$email', dept_name = " . ($dept_name === NULL ? 'NULL' : "'$dept_name'") . " 
             WHERE student_id = '$student_id'";
+    
+     $conn->query($sql);
 }
 
 // TODO: Redirect to homepaeg
