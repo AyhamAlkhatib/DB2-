@@ -196,11 +196,7 @@ insert into course (course_id, course_name, credits) values ('COMP2010', 'Comput
 insert into course (course_id, course_name, credits) values ('COMP2040', 'Computing IV', 3);
 
 insert into department (dept_name, location) values ('Miner School of Computer & Information Sciences', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
-insert into department (dept_name, location) values ('Civil & Environmental Engineering', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
-insert into department (dept_name, location) values ('Electrical & Computer Engineering', 'Ball Hall, 1 University Avenue, Lowell, MA 01854');
-insert into department (dept_name, location) values('Mechanical & Industrial Engineering', 'Dandeneau Hall, 1 University Avenue, Lowell, MA 01854');
-insert into department (dept_name, location) values('Plastics Engineering', 'Ball Hall, 1 University Avenue, Lowell, MA 01854');
-insert into department (dept_name, location) values('Engineering Technology', 'Falmouth Hall, 1 University Avenue, Lowell, MA 01854');
+
 
 insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('1', 'David Adams', 'Teaching Professor', 'Miner School of Computer & Information Sciences','dbadams@cs.uml.edu');
 insert into instructor (instructor_id, instructor_name, title, dept_name, email) values ('2', 'Sirong Lin', 'Associate Teaching Professor', 'Miner School of Computer & Information Sciences','slin@cs.uml.edu');
